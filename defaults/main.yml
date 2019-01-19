@@ -1,5 +1,5 @@
 ---
-# vars file for create-droplet
+# defaults file for create-droplet
 do_token: change-me
 ssh_key_name: my-public-key
 
