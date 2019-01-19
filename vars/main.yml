@@ -1,0 +1,9 @@
+---
+# vars file for create-droplet
+do_token: change-me
+ssh_key_name: my-public-key
+
+droplet_size_id: 1gb
+droplet_name: ansible-test
+droplet_region_id: fra1
+droplet_image_id: ubuntu-16-04-x64

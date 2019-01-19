@@ -1,0 +1,12 @@
+##
+# Ansible playbook
+#
+
+- name: Run Playbook
+  hosts: local
+
+  vars_files:
+    - vars.yml
+
+  tasks:
+    - include: ./tasks/main.yml
